@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Trivia App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div id="landing-page">
+      <h1>Trivia App</h1>
+      <button onclick="startGame()">Start Game</button>
+    </div>
+    
+    <div id="game-page">
+      <h2 id="category"></h2>
+      <h3 id="question"></h3>
+      <ul id="choices">
+        <li><button onclick="checkAnswer(0)">Choice 1</button></li>
+        <li><button onclick="checkAnswer(1)">Choice 2</button></li>
+        <li><button onclick="checkAnswer(2)">Choice 3</button></li>
+        <li><button onclick="checkAnswer(3)">Choice 4</button></li>
+      </ul>
+      <p>Score: <span id="score">0</span></p>
+      <p>Time: <span id="time">0</span></p>
+    </div>
+    
+    <div id="end-page">
+      <h2>Game Over</h2>
+      <p>Your score is <span id="final-score">0</span></p>
+      <button onclick="startGame()">Play Again</button>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>

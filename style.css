@@ -1,0 +1,27 @@
+#landing-page, #end-page {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #game-page {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #choices {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #choices li {
+    margin-top: 10px;
+  }
+  
+  #choices button {
+    padding: 10px 20px;
+  }
+  
+  #end-page {
+    display: none;
+  }
+  
